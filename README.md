@@ -1,3 +1,7 @@
-compile the .ts file using the typescript compiler tsc
-tsc helloworld.ts   -->  this will generate a helloworld.js
-node helloworld.js  -->  this will run the JS code
+# How to run TypeScript code
+Compile the **.ts** file using the typescript compiler **tsc**.\
+<br />Below command will generate a *helloworld.js* file\
+**```tsc helloworld.ts```**
+
+Run the JavaScript code\
+**```node helloworld.js```**
