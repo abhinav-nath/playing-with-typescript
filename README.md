@@ -4,4 +4,8 @@ Compile the **.ts** file using the typescript compiler **tsc**.\
 **```tsc helloworld.ts```**
 
 Run the JavaScript code\
-**```node helloworld.js```**
+**```node helloworld.js```**\
+<br />
+By default **tsc** will still generate a **.js** file even when there are compilation errors.\
+In order to prevent it, use the following command:
+<br />**```tsc -noEmitOnError helloworld.ts```**
