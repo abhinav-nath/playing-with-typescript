@@ -8,7 +8,7 @@ let grade: number = 87.9;
 let firstName: string = "Abhinav";  // double quotes work
 let lastName: string = 'Nath';      // and single quotes too
 
-// template strings - span multiple lines and have embedded expressions
+// template strings - span multiple lines and have embedded expressions - using back ticks
 let fullName: string = `Abhinav Nath`;
 let age: number = 29;
 let sentence: string = `Hello, my name is ${ fullName }.
@@ -26,7 +26,9 @@ myData = 27
 
 
 // arrays
-let list: number[] = [1, 2, 3]; // or let list: Array<number> = [1, 2, 3];
+let numbers_: number[] = [1, 2, 3]; // or let numbers: Array<number> = [1, 2, 3];
+numbers_.push(4);
+numbers_.push(5);
 
 // enums
 enum Color {Red, Green, Blue}
